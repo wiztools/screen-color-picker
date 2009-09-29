@@ -4,14 +4,14 @@
     <groupId>org.wiztools.util</groupId>
     <artifactId>screen-color-picker</artifactId>
     <packaging>jar</packaging>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>0.2.0</version>
     <name>screen-color-picker</name>
     <url>http://wiztools.googlecode.com/</url>
 
     <scm>
-        <connection>scm:svn:http://wiztools.googlecode.com/svn/screen-color-picker/trunk/</connection>
-        <developerConnection>scm:svn:https://wiztools.googlecode.com/svn/screen-color-picker/trunk/</developerConnection>
-        <url>http://code.google.com/p/wiztools/source/browse/</url>
+        <connection>scm:svn:http://wiztools.googlecode.com/svn/screen-color-picker/tags/screen-color-picker-0.2.0</connection>
+        <developerConnection>scm:svn:https://wiztools.googlecode.com/svn/screen-color-picker/tags/screen-color-picker-0.2.0</developerConnection>
+        <url>scm:svn:https://wiztools.googlecode.com/svn/screen-color-picker/tags/screen-color-picker-0.2.0</url>
     </scm>
 
     <build>
