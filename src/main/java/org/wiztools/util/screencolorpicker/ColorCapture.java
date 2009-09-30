@@ -22,6 +22,14 @@ import javax.swing.JWindow;
  */
 class ColorCapture implements Runnable {
 
+    private String toHexString(final int input){
+        String out = Integer.toHexString(input);
+        if(out.length() == 1){
+            out = "0" + out;
+        }
+        return out;
+    }
+
     public void run() {
         try {
             // Find the screen dimension:
@@ -47,7 +55,7 @@ class ColorCapture implements Runnable {
                         final int c_green = c.getGreen();
                         final int c_blue = c.getBlue();
                         System.out.println(c_red + ", " + c_green + ", " + c_blue);
-                        System.out.println("#" + Integer.toHexString(c_red) + Integer.toHexString(c_green) + Integer.toHexString(c_blue));
+                        System.out.println("#" + toHexString(c_red) + toHexString(c_green) + toHexString(c_blue));
                         System.exit(0);
                     } catch (AWTException ex) {
                         ex.printStackTrace();
